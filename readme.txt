@@ -12,7 +12,7 @@ Change upload filename to random characters / random numbers / date / other by y
 
 == Description ==
 
-Sometimes we forgot change a available name for our file. So the plugin can help you auto change your upload file.
+Sometimes we forgot change our file to a available name. So the plugin can help you auto change your upload file.
 I will add a filetype option of setting in next version.
 And a rename popup before the file upload if you change setting in future, default value is post_name.
 
