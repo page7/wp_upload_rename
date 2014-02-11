@@ -31,6 +31,7 @@ There are many ways to install this plugin, e.g:
 
 == Screenshots ==
 
+http://www.nolanchou.com/wp_upload_rename/screenshots.jpg
 
 == Changelog ==
 
