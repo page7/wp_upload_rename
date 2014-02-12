@@ -31,7 +31,8 @@ There are many ways to install this plugin, e.g:
 
 == Screenshots ==
 
-<img src="http://www.nolanchou.com/wp_upload_rename/screenshots.jpg" />
+1. Setting page
+2. Rename for a upload file.
 
 == Changelog ==
 
