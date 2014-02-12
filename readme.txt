@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Nolan
+Contributors: zhounan0120
 Donate link: http://www.nolanchou.com/wp_upload_rename
 Tags: upload, admin, images, image, media, file, rename, filename, short url, random, date, number
 Requires at least: 3.0
