@@ -51,7 +51,7 @@
             If you have any <b>Questions</b> or good <b>Ideas</b>. Please <a href="mailto:zhounan0120@gmail.com">Mail to me</a>,<br />
             or go to <a href="https://github.com/page7/wp_upload_rename/issues" target="_blank">Github Issue</a>.<br />
             I will add media's types option and a popup before upload in future.<br />
-            If you like it, <a href="http://wordpress.org/plugins/easy-table/" target="_blank">Rate It Here</a>, and I won't mind if you want to buy me a cup of coffee. :)
+            If you like it, <a href="http://wordpress.org/plugins/wp-upload-rename/" target="_blank">Rate It Here</a>, and I won't mind if you want to buy me a cup of coffee. :)
             <form id="donate" name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post" target="_blank">
             $ <input style="border:#CCC solid 1px;" type="text" name="amount" value="2.00" /><br />
             <input type="hidden" name="cmd" value="_xclick" />
