@@ -4,7 +4,7 @@ Donate link: http://www.nolanchou.com/wp_upload_rename
 Tags: upload, admin, images, image, media, file, rename, filename, short url, random, date, number
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 0.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,15 +31,17 @@ There are many ways to install this plugin, e.g:
 
 == Screenshots ==
 
-http://www.nolanchou.com/wp_upload_rename/screenshots.jpg
+<img src="http://www.nolanchou.com/wp_upload_rename/screenshots.jpg" />
 
 == Changelog ==
 
-= 0.1 =
+= 1.0 =
 * First release
 
+= 1.1 =
+* Fixed bug
 
 == Upgrade Notice ==
 
-= 0.1 =
+= 1.0 =
 * First release
