@@ -32,9 +32,15 @@
             </div>
 
             <div class="wp_upload_rename_option">
-                <h4><?php echo $this->__('Param'); ?>:</h4>
-                <p><?php echo $this->__('Set value of some chars in char mode, eq:"ABCDEFGHIabcdefg_123"<br /> or a date format string in time mode, eq:"Y_m_d_H_i_s"<br /> or use <b>%file%</b> , <b>%date|Y-m-d%</b> , <b>%chars|5%</b> , <b>%nums|7%</b> in diy mode.'); ?></p>
+                <h4><?php echo $this->__('Rule'); ?>:</h4>
+                <p><?php echo $this->__('Set value of some chars in char mode, eq:"ABCDEFGHIabcdefg_123"<br /> or a date format string in time mode, eq:"Y_m_d_H_i_s"<br /> or use <b>%file%</b> , <b>%date|Y-m-d%</b> , <b>%char|5%</b> , <b>%num|7%</b> in diy mode.'); ?></p>
                 <input id="wp_upload_rename_param" style="width:400px;" name="wp_upload_rename_options[param]" value="<?php echo $this->option('param'); ?>" />
+            </div>
+
+            <div class="wp_upload_rename_option">
+                <h4><?php echo $this->__('Use post\'s title or name?'); ?></h4>
+                <p><?php echo $this->__('Set value like the above. <b>In diy mode</b> you can use the new code: <b>%title%</b> or <b>%name%</b> to get post\'s title and name when uploading <b>on post edit page</b>.<br />Notice: filename can\'t be changed when post\'s title or name be edit after uploaded.'); ?></p>
+                <input id="wp_upload_rename_param" style="width:400px;" name="wp_upload_rename_options[post_param]" value="<?php echo $this->option('post_param'); ?>" />
             </div>
 
             <input type="hidden" name="action" value="update" />
