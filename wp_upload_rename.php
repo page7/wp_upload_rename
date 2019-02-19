@@ -3,7 +3,7 @@
 Plugin Name: wp_upload_rename
 Plugin URI: http://www.nolanchou.com/wp_upload_rename/
 Description: Rename upload file by random chars / numbers / date / other.
-Version: 1.1.1
+Version: 1.1.2
 Author: Nolan Chou
 Author URI: http://www.nolanchou.com/
 License: GUN v2
