@@ -77,13 +77,13 @@
 </div>
 
 <script type="text/javascript">
-wp_upload_rename_selectMode(dom){
+function wp_upload_rename_selectMode(dom){
     var j = jQuery(dom);
-    jQuery("#wp_upload_rename_length, #wp_upload_rename_options").removeAttr("disabled");
+    jQuery("#wp_upload_rename_length, #wp_upload_rename_options").prop("disabled", false);
     if(j.val() == 'date' || j.val() == 'diy'){
-        jQuery("#wp_upload_rename_length").attr("disabled");
+        jQuery("#wp_upload_rename_length").prop("disabled", true);
     }else if(j.val() == 'num'){
-        jQuery("#wp_upload_rename_options").attr("disabled");
+        jQuery("#wp_upload_rename_options").prop("disabled", true);
     }
 }
 </script>
