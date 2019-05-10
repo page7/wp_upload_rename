@@ -3,7 +3,7 @@
 Plugin Name: wp_upload_rename
 Plugin URI: http://www.nolanchou.com/wp_upload_rename/
 Description: Rename upload file by random chars / numbers / date / other.
-Version: 1.1.2
+Version: 1.2
 Author: Nolan Chou
 Author URI: http://www.nolanchou.com/
 License: GUN v2
@@ -23,19 +23,13 @@ class wp_upload_rename
     //　construct
     public function __construct()
     {
-        if (is_admin())
-        {
-            $plugin = plugin_basename(__FILE__);
-            // plugin init / setting link / setting page
-            add_action('admin_init', array(&$this, 'register'));
-            add_action('admin_menu', array(&$this, 'menu'));
-            add_filter('plugin_action_links_'.$plugin, array(&$this, 'link'));
-            // rename main
-            add_filter('wp_handle_upload_prefilter', array(&$this, 'rename'));
-            // next version: add rename input in upload page
-            //add_action('pre-upload-ui', array(&$this, 'pre_upload'));
-            //add_filter('plupload_default_params', array(&$this, 'pre_upload_filter'));
-        }
+        $plugin = plugin_basename(__FILE__);
+        // plugin init / setting link / setting page
+        add_action('admin_init', array(&$this, 'register'));
+        add_action('admin_menu', array(&$this, 'menu'));
+        add_filter('plugin_action_links_'.$plugin, array(&$this, 'link'));
+        // rename main
+        add_filter('wp_handle_upload_prefilter', array(&$this, 'rename'));
     }
 
 
@@ -226,6 +220,7 @@ Of course use code %file%, %date%, %char%, %num% is ok'. ($is_post ? ', And also
 }
 
 add_action('init', 'wp_upload_rename_init');
+
 function wp_upload_rename_init()
 {
 	if (class_exists('wp_upload_rename'))
@@ -233,8 +228,3 @@ function wp_upload_rename_init()
 		new wp_upload_rename();
 	}
 }
-
-//register_uninstall_hook(__FILE__, array('wp_upload_rename', 'uninstall'));
-
-
-?>

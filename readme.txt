@@ -3,7 +3,7 @@ Contributors: zhounan0120
 Donate link: http://www.nolanchou.com/wp_upload_rename
 Tags: upload, admin, images, image, media, file, rename, filename, short url, random, date, number
 Requires at least: 3.0
-Tested up to: 5.0.3
+Tested up to: 5.1.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,6 +46,10 @@ There are many ways to install this plugin, e.g:
 = 1.1.0 =
 * Fixed bugs
 * Add rename rule by title and slug
+
+= 1.2 =
+* Fixed bug in edit post page
+* Test for 5.1.1
 
 == Upgrade Notice ==
 
